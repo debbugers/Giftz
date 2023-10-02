@@ -59,9 +59,9 @@ a{
 
   }
   img{
-    height: 20%;
+    height: 25%;
     display: block;
-    width: 20%;
+    width: 25%;
     border: 1px transparent solid;
     padding: 2rem;
     margin-top: 2rem;
@@ -69,14 +69,14 @@ a{
     background-color: transparent;
   }
   img:hover{
-    height: 25%;
-    width: 25%;
+    height: 30%;
+    width: 30%;
     transition: 2s;
     
   }
   #body{
     width: 100%;
-    background-image: linear-gradient(rgb(244, 197, 204), rgb(233, 117, 136));
+    background-image: linear-gradient(rgb(179, 221, 146), rgb(227, 227, 199));
   }
   font{
     margin-left: 1rem;
@@ -91,7 +91,7 @@ a{
   }
   #about{
     font-family: cursive;
-    background-image: linear-gradient(rgb(233, 117, 136), rgb(222, 53, 81));
+    background-image: linear-gradient(rgb(51, 42, 44), rgb(222, 53, 81));
   }
   #about1{
     font-size:larger;
