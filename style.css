@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#navbar{
+    background-color: rgb(245, 159, 173);
+    height: 5rem;
+    width: 100%;
+}
+logo{
+    color: white;
+    font-size:4rem;
+}
+#bar{
+    height: 2rem;
+    background-color: pink;
+    width: 100%;
+    word-spacing: 1rem;
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 1rem;
+
+    
+}
+.topnav {
+    background-color: pink;
+    overflow: hidden;
+  }
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+.topnav a.active {
+    background-color: wheat;
+    color: white;
+  }
+  .topnav .icon {
+    display: none;
+  }
+@media screen and (max-width: 600px) {
+    #bar{
+        font-size: 1.1rem;
+        word-spacing: 1px;
+    }
+
+  }
+  img{
+    height: 20%;
+    display: block;
+    width: 20%;
+    border: 1px transparent solid;
+    padding: 2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    background-color: transparent;
+  }
+  img:hover{
+    height: 25%;
+    width: 25%;
+    transition: 2s;
+    
+  }
+  #body{
+    width: 100%;
+    background-image: linear-gradient(rgb(244, 197, 204), rgb(233, 117, 136));
+  }
+  font{
+    margin-left: 1rem;
+    font-family: cursive;
+  }
+  button{
+    background-color: green;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  #about{
+    font-family: cursive;
+    background-image: linear-gradient(rgb(233, 117, 136), rgb(222, 53, 81));
+  }
+  #about1{
+    font-size:larger;
+    
+
+  }
