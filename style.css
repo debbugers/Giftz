@@ -1,37 +1,52 @@
-*{
+/* Global reset */
+* {
     padding: 0;
     margin: 0;
 }
-#navbar{
+
+/* Navbar styles */
+#navbar {
     background-color: green;
     height: 5rem;
     width: 100%;
 }
-logo{
+
+.logo {
     color: white;
-    font-size:4rem;
+    font-size: 4rem;
+    padding: 1rem;
+    text-align: center;
 }
-#bar{
+
+/* Navigation bar */
+#bar {
     height: 2rem;
     background-color: pink;
     width: 100%;
     word-spacing: 1rem;
     padding-top: 1rem;
     font-size: 1.2rem;
-    
 }
-a{
+
+/* Links in the nav bar */
+a {
     text-decoration: none;
     color: white;
     margin-left: 1rem;
-
-    
 }
+
+/* Hover effect for navbar links */
+a:hover {
+    color: black;
+}
+
+/* Responsive navbar */
 .topnav {
     background-color: pink;
     overflow: hidden;
-  }
-  .topnav a {
+}
+
+.topnav a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -39,26 +54,37 @@ a{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
-  .topnav a:hover {
+}
+
+.topnav a:hover {
     background-color: #ddd;
     color: black;
-  }
+}
+
 .topnav a.active {
     background-color: white;
     color: white;
-  }
-  .topnav .icon {
+}
+
+.topnav .icon {
     display: none;
-  }
+}
+
+/* Media query for mobile responsiveness */
 @media screen and (max-width: 600px) {
-    #bar{
+    #bar {
         font-size: 1.1rem;
         word-spacing: 1px;
     }
 
-  }
-  img{
+    img {
+        height: 50%;
+        width: 50%;
+    }
+}
+
+/* Image styling */
+img {
     height: 25%;
     display: block;
     width: 25%;
@@ -67,34 +93,62 @@ a{
     margin-top: 2rem;
     cursor: pointer;
     background-color: transparent;
-  }
-  img:hover{
+    transition: all 0.3s ease;
+}
+
+/* Image hover effect */
+img:hover {
     height: 30%;
     width: 30%;
-    transition: 2s;
-    
-  }
-  #body{
+    transition: all 0.5s ease;
+}
+
+/* Body styling */
+#body {
     width: 100%;
     background-image: linear-gradient(rgb(179, 221, 146), rgb(227, 227, 199));
-  }
-  font{
+}
+
+/* Font for product descriptions */
+font {
     margin-left: 1rem;
     font-family: cursive;
-  }
-  button{
+    font-size: 1.2rem;
+}
+
+/* Button styling */
+button {
     background-color: green;
+    color: white;
     border: none;
     padding: 0.5rem;
     border-radius: 10px;
     margin-bottom: 1rem;
-  }
-  #about{
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+/* About section */
+#about {
     font-family: cursive;
     background-image: linear-gradient(rgb(51, 42, 44), rgb(222, 53, 81));
-  }
-  #about1{
-    font-size:larger;
-    
+    padding: 2rem;
+    color: white;
+}
 
-  }
+#about1 {
+    font-size: larger;
+}
+
+/* Footer section */
+#footer {
+    background-color: green;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-family: sans-serif;
+}
