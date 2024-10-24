@@ -3,7 +3,7 @@
     margin: 0;
 }
 #navbar{
-    background-color: rgb(245, 159, 173);
+    background-color: green;
     height: 5rem;
     width: 100%;
 }
@@ -45,7 +45,7 @@ a{
     color: black;
   }
 .topnav a.active {
-    background-color: wheat;
+    background-color: white;
     color: white;
   }
   .topnav .icon {
