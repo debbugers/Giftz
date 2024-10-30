@@ -134,16 +134,25 @@ button:hover {
 
 /* About section */
 #about {
-    font-family: cursive;
+    font-family: ubuntu;
     background-image: linear-gradient(rgb(51, 42, 44), rgb(222, 53, 81));
     padding: 2rem;
     color: white;
+    text-align: justify;
 }
 
-#about1 {
-    font-size: larger;
-}
+#about1{
+    width: 100%;
+    display:flex ;
 
+}
+#about2{
+    margin: 1rem;
+}
+.left_about,.right_about{
+    width: 50%;
+    margin: 1rem;
+}
 /* Footer section */
 #footer {
     background-color: green;
