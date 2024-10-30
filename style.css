@@ -5,69 +5,130 @@
 }
 
 /* Navbar styles */
-#navbar {
-    background-color: green;
-    height: 5rem;
-    width: 100%;
-}
 
-.logo {
-    color: white;
-    font-size: 4rem;
-    padding: 1rem;
-    text-align: center;
-}
 
-/* Navigation bar */
-#bar {
-    height: 2rem;
-    background-color: pink;
-    width: 100%;
-    word-spacing: 1rem;
-    padding-top: 1rem;
-    font-size: 1.2rem;
-}
+    
 
-/* Links in the nav bar */
-a {
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1600px;
+    background-color: #2874f0;
+    color: #fff;
+    padding: 5px 20px;
+}
+    
+
+.logo a {
+    font-size: 24px;
+    color: #fff;
     text-decoration: none;
-    color: white;
-    margin-left: 1rem;
+    font-weight: bold;
 }
 
-/* Hover effect for navbar links */
-a:hover {
-    color: black;
+.search-bar {
+    display: flex;
+    flex-grow: 1;
+    height: 6vh;
+    margin: 0 20px 0 150px;
+    max-width: 600px;
 }
+
+.search-bar input {
+    width: 100%;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 30px;
+}
+
+.search-bar button {
+    padding: 8px 16px;
+    border: none;
+    background-color:  #0c9e11;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+#Search{
+    margin-top: 10px;
+}
+.navbar ul {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #ffeb3b;
+}
+
+.user-options a {
+    color: #fff;
+    margin-left: 50px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.user-options a:hover {
+    color: #e0d148;
+}
+
+
 
 /* Responsive navbar */
-.topnav {
-    background-color: pink;
-    overflow: hidden;
-}
 
-.topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
+@media (max-width: 480px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
 
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
+    .logo a {
+        font-size: 20px;
+    }
 
-.topnav a.active {
-    background-color: white;
-    color: white;
-}
+    .search-bar {
+        width: 100%;
+        max-width: 100%;
+        margin: 10px 0;
+    }
 
-.topnav .icon {
-    display: none;
+    .search-bar input {
+        width: 80%;
+        padding: 8px;
+        border-radius: 20px 0 0 20px;
+    }
+
+    .search-bar button {
+        padding: 8px;
+        border-radius: 0 20px 20px 0;
+        font-size: 14px;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+
+    .user-options {
+        display: none;
+    }
+
 }
 
 /* Media query for mobile responsiveness */
