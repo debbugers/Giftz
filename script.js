@@ -5,4 +5,9 @@ function myFunction() {
     } else {
       x.className = "topnav";
     }
+   
   }
+  function my() {
+    alert("Search button clicked!");
+}
+  
