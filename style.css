@@ -71,7 +71,9 @@
 .navbar ul li a:hover {
     color: #ffeb3b;
 }
-
+.user-options{
+    display: none;
+}
 .user-options a {
     color: #fff;
     margin-left: 50px;
@@ -102,6 +104,9 @@
         width: 100%;
         max-width: 100%;
         margin: 10px 0;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
     }
 
     .search-bar input {
@@ -122,8 +127,44 @@
 
 
     .user-options {
-        display: none;
+        margin-top: 5px;
+        font-size: 30px;
+        display: block;
+        cursor: pointer;
     }
+    #about1{
+        width: 100%;
+        display:block !important ;
+    
+    }
+    .left_about,.right_about{
+        width: 100% !important;
+        margin: 10px 0 !important;
+
+    }
+    .footer2{
+        display: block !important;
+    }
+    .footer_left,.right_footer{
+    width: 100% !important;
+    padding: 20px;
+}
+.web,.contact_icon{
+    width: 90% !important;
+    height: 80px;
+    border: 1px solid white;
+    margin: 20px;
+    display: flex;
+    font: 500 20px ubuntu !important;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    font-size: 25px !important;
+}
+
+
+
 
 }
 /* Navbar styles */
@@ -343,7 +384,7 @@ button:hover {
     position: relative;
 }
 .slider_img{
-    width: 95%;
+    /* width: 95%; */
     /* border: 2px solid; */
     height: 200px;
     display: flex;
