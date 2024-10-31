@@ -2,6 +2,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 /* Navbar styles */
@@ -94,9 +95,9 @@ img {
     cursor: pointer;
     background-color: transparent;
     transition: all 0.3s ease;
-}
+} */
 
-/* Image hover effect */
+Image hover effect
 img:hover {
     height: 30%;
     width: 30%;
@@ -199,7 +200,7 @@ button:hover {
 }
 .right_footer{
     display: flex;
-    
+}   
 .right_footer1 p, .right_footer2 p{
     font:600 25px ubuntu;
     margin: 10px 0 10px 0;
@@ -213,4 +214,46 @@ button:hover {
     font: 500 20px ubuntu;
     padding: 20px;
 }
+    
+.slider_box{
+    width: 100%;
+    height: 200px;
+    border: 2px solid;
+    position: relative;
+}
+.slider_img{
+    width: 95%;
+    /* border: 2px solid; */
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin: 0 30px;
+    background-color: white;
+}
+
+.slider_img img{
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    /* border: 2px solid; */
+    padding: 0 10px;
+    margin: 0 10px;
+    background-color: #ccc;
+}
+.move,.moves{
+    position: absolute;
+    font-size: 30px;
+    cursor: pointer;
+}
+.move{
+    left: 0;
+    top: 50%;
+}
+.moves{
+    right: 0;
+    top: 50%;
 }
